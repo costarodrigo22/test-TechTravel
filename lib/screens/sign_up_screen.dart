@@ -1,5 +1,7 @@
 import 'package:desafio_flutter/screens/profile_picture_screen.dart';
+import 'login_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/gestures.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -31,9 +33,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
               const SizedBox(height: 24),
               RichText(
                 textAlign: TextAlign.center,
-                text: const TextSpan(
+                text: TextSpan(
                   text: 'Already have an account? ',
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: Color(0x73FFFFFF),
                     fontSize: 14,
                     fontFamily: 'Montserrat',
@@ -41,11 +43,21 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   children: [
                     TextSpan(
                       text: 'Sign In!',
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: Color(0xFFAA73F0),
                         fontWeight: FontWeight.bold,
                         fontFamily: 'Montserrat',
                       ),
+                      recognizer:
+                          TapGestureRecognizer()
+                            ..onTap = () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => const LoginScreen(),
+                                ),
+                              );
+                            },
                     ),
                   ],
                 ),

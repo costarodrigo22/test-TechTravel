@@ -1,6 +1,6 @@
 name: desafio_flutter
-description: 'A new Flutter project.'
-publish_to: 'none'
+description: "A new Flutter project."
+publish_to: "none"
 
 version: 1.0.0+1
 
@@ -27,4 +27,5 @@ flutter:
     - assets/images/logo_create.png
     - assets/images/google.png
     - assets/images/apple.png
+    - assets/images/image_camera.png
   uses-material-design: true
