@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:desafio_flutter/screens/forgot_password_screen.dart';
+import 'package:desafio_flutter/screens/home_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -140,7 +141,12 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
                 child: TextButton(
                   onPressed: () {
-                    // Login action
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const HomeScreen(),
+                      ),
+                    );
                   },
                   child: const Text(
                     "Login",
