@@ -7,6 +7,7 @@ import 'screens/sign_up_screen.dart';
 import 'screens/complete_profile_screen.dart';
 import 'screens/forgot_password_screen.dart';
 import 'screens/instructions_sent_screen.dart';
+import 'screens/profile_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
             (context) => const ForgotPasswordScreen(), // adicionado
         '/instructions-sent':
             (context) => const InstructionsSentScreen(), // adicionado
+        '/profile': (context) => const ProfileScreen(),
       },
     );
   }

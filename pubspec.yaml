@@ -34,4 +34,9 @@ flutter:
     - assets/images/profile_mock.png
     - assets/images/duble_like.png
     - assets/images/unlike.png
+    - assets/images/trash.png
+    - assets/images/logo_purple.png
+    - assets/images/shield.png
+    - assets/images/movie_one.png
+    - assets/images/movie_two.png
   uses-material-design: true

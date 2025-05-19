@@ -47,13 +47,18 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 32,
                       height: 32,
                     ),
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(16),
-                      child: Image.asset(
-                        'assets/images/profile_mock.png',
-                        width: 32,
-                        height: 32,
-                        fit: BoxFit.cover,
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/profile');
+                      },
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(16),
+                        child: Image.asset(
+                          'assets/images/profile_mock.png',
+                          width: 32,
+                          height: 32,
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
                   ],
