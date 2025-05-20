@@ -87,13 +87,4 @@ Contribuições são bem-vindas! Sinta-se livre para abrir issues ou enviar pull
 
 ---
 
-## 📸 Preview
-
-<img src="screenshots/splash.png" width="200" />
-<img src="screenshots/home.png" width="200" />
-<img src="screenshots/profile.png" width="200" />
-<img src="screenshots/change_password_modal.png" width="200" />
-
----
-
 Desenvolvido por Rodrigo Costa Silva
