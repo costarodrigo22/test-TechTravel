@@ -33,8 +33,8 @@ Este é um aplicativo desenvolvido em **Flutter** como parte de um desafio prát
 ### 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/flutter-movie-app.git
-cd flutter-movie-app
+git clone https://github.com/costarodrigo22/test-techTravel.git
+cd test-techTravel
 ```
 
 ### 2. Instale as dependências:
